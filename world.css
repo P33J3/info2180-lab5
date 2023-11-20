@@ -1,1 +1,98 @@
 /* Add your own styles */
+
+body{
+    padding: 0;
+    margin: 0;
+}
+header {
+    height: 25vh;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    width: 200px;
+    float: left;
+}
+
+h1 {
+    font-size: 36px;
+    color: white;
+    padding: 10px;
+
+}
+
+#controls {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+    justify-content: center;
+    align-items: center;
+    margin: 0 25% 0 25%;
+    grid-gap: 10px;
+    padding-top: 35px;
+}
+
+#controls input {
+    grid-column: 1/6;
+    grid-row: 1;
+}
+
+#countrylookup {
+    grid-column: 2/3;
+    grid-row: 2;
+    width: 150px;
+}
+
+#citylookup {
+    grid-column: 3/4;
+    grid-row: 2;
+    width: 150px;
+}
+
+table {
+   justify-content: center;
+    text-align: center;
+}
+
+table thead {
+    text-align: center;
+}
+
+table tbody {
+    text-align: left;
+}
+
+#result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+th, td {
+    padding: 5px;
+}
+
+th:first-child, td:first-child {
+    width:150px;
+}
+
+th:nth-child(2), td:nth-child(2) {
+    width: 150px;
+}
+
+th:nth-child(3), td:nth-child(3) {
+    width: 150px;
+}
+
+th:nth-child(4), td:nth-child(4) {
+    width: 250px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: lightgray;
+}
+
